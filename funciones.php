@@ -65,7 +65,7 @@ function armarUsuario($datos, $imagen){
     "apellido" => $datos["apellido"],
     "email" => $datos["email"],
     "contrasena" => $contraHash,
-    "imagen" => $imagen["imagen"],
+    "imagen" => $imagen,
   ];
 
   return $usuario;
